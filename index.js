@@ -19,7 +19,7 @@ function appendDriver(name) {
   newDrivers.push(name)
   return newDrivers
 }
-function appendDriver(name) {
+function prependDriver(name) {
   const newDrivers = drivers.slice()
   newDrivers.unshift(name)
   return newDrivers
