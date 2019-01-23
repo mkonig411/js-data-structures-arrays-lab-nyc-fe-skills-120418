@@ -24,3 +24,8 @@ function prependDriver(name) {
   newDrivers.unshift(name)
   return newDrivers
 }
+function prependDriver(name) {
+  const newDrivers = drivers.slice()
+  newDrivers.unshift(name)
+  return newDrivers
+}
